@@ -1,0 +1,11 @@
+# Ignore Python cache clutter
+__pycache__/
+*.pyc
+
+# Ignore local environment files that might hold passwords
+.env
+*.log
+
+# Ignore local infrastructure and credentials setup
+scripts/setup_infrastructure.py
+setup_infrastructure.py

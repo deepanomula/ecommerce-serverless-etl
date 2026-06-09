@@ -1,0 +1,30 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# AWS Secrets and Plain Text Credentials
+aws details.txt
+*.txt
+*.env
+*credentials*
+
+# Local SQLite Database Binaries
+*.db
+*.sqlite
+*.sqlite3
+
+# Massive Local Data Dumps (CSVs/Parquet)
+*.csv
+*.parquet
+*.json
+
+# IDE and System Clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker Local Runtimes
+.dockerignore

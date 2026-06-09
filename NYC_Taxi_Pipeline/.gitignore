@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.parquet
+
+# Terraform tracking bypass
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+NOTES.md
